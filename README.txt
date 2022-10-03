@@ -1,28 +1,40 @@
-Lab-4 assignment:-
+----> Steps for execution of nsettipa_HW2.c file:-
 
-Program:
-C program that implements two filenames as command-line arguments and 
-concatenates the contents of the second file to the first file without changing the contents in the second file.
+>>   gcc -o nsettipa_HW2 nsettipa_HW2.c
 
-// file1.txt:-
-//This is Neelima
-// file2.txt:- 
-//This is Settipalli
+----> Steps for compilation of executable file "nsettipa_HW2":-
 
-Steps for compilation:
-cat file1.txt
-cat file2.txt
-'gcc -Wall nsettipa_lab4 -o nsettipa_lab4.c'
+>>  ./nsettipa_HW2
 
 
-Steps for Execution:
-./nsettipa_lab4 file1.txt file2.txt
 
-// Output in file1:-
-This is Neelima
-This is Settipalli
-//Output in file2:-
-This is Settipalli
+-----> Execute the following commands with the executable file:-
+
+>>  -S :- List all files in the directory along with the required attributes
+
+>>  ./nsettipa_HW2 -S ./
+
+>> -s :- List all files with size <= 1024 bytes in the current directory.
+
+>> ./nsettipa_HW2 -s <file size in bytes> <file path>
+
+>> -f :- List all files in the current directory that includes the given extension.
+
+>>  ./nsettipa_HW2 -f <file extension> <depth of file>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
