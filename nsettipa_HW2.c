@@ -1,3 +1,19 @@
+/* 
+Name: NEELIMA SETTIPALLI
+BlazerId: nsettipa
+Project #: Homework_2
+To compile: gcc -o nsettipa_HW2 nsettipa_HW2.c
+To run: ./nsettipa_HW2 <commands> <path of file>
+Commands:- 
+-S :- List all files in the directory along with the required attributes
+>> ./nsettipa_HW2 -S ./
+-s :- List all files with size <= 1024 bytes in the current directory.
+>> ./nsettipa_HW2 -s <file size in bytes> <file path>
+-f :- List all files in the current directory that includes the given extension.
+>> ./nsettipa_HW2 -f <file extension> <depth of file>
+*/ 
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -169,7 +185,7 @@ void p_args(int argc, char *argv[])
         }
     }
 }
-// Driver code
+
 int main(int argc, char *argv[])
 {
     p_args(argc, argv);
