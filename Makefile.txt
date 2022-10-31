@@ -1,10 +1,2 @@
-The compiler used for execution of the program is :- gcc compiler
-The executable file created is :- nsettipa_HW2.c
 
-%.o: %.c %.h  Makefile
-	${COMPILER} $< -c 
-
-clean:
-	rm -f *.o *~ ${EXES} ${CFILES}
-
-
+gcc nsettipa_HW3.c -Wall -o nsettipa_HW3
